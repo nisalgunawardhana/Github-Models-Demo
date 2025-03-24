@@ -78,42 +78,38 @@ Follow these steps to set up the environment:
 
 ## Customizing Messages
 
-You can customize the interaction by editing the messages in the following format:
+**You can customize the interaction by editing the messages in the following format**:
 
-```bash
-# Open the `src/sample.js` file in the repository
-nano src/sample.js
+1. Open the `src/sample.js` file in the repository.
+2. Modify the `messages` array to include your own context and questions. For example:
+        ```javascript
+        const messages = [
+            { role: "developer", content: "You are a helpful assistant" },
+            { role: "user", content: "<< - Your questions ->> "}
+        ];
+        ```
+3. Save the file and restart the application:
+        ```bash
+        npm start
+        ```
 
-# Modify the `messages` array to include your own context and questions
-# Example:
-# messages = [
-#     { role: "developer", content: "You are a helpful assistant" },
-#     { role: "user", content: "<< - Your questions ->> "}
-# ];
+**This allows you to tailor the interaction to your specific needs**.
 
-# Save the file and restart the application
-npm start
-```
+    ## Trying the Chatbot Experience
 
-This allows you to tailor the interaction to your specific needs.
+    If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows:
 
-## Trying the Chatbot Experience
+    1. Open the `package.json` file in the root directory.
+    2. Locate the `scripts` section and update the `start` command:
+        ```json
+        "start": "node ./src/chatbot.js"
+        ```
+    3. Save the file and start the application:
+        ```bash
+        npm start
+        ```
 
-If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows:
-
-```bash
-# Open the `package.json` file in the root directory
-nano package.json
-
-# Locate the `scripts` section and update the `start` command
-# Example:
-# "start": "node ./src/chatbot.js"
-
-# Save the file and start the application
-npm start
-```
-
-This will run the chatbot experience instead of the default sample application.
+    This will run the chatbot experience instead of the default sample application.
 
 
 ## Closing Notes
