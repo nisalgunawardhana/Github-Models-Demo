@@ -105,7 +105,7 @@ Follow these steps to set up the environment:
         "start": "node ./src/chatbot.js"
         ```
 3. Save the file and start the application:
-        ```bash
+        ```
         npm start
         ```
 
