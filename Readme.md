@@ -45,8 +45,8 @@ Follow these steps to set up the environment:
 
 2. **Clone the Forked Repository**:
     ```bash
-    git clone https://github.com/your-username/demo-repo.git
-    cd demo-repo
+    git clone https://github.com/nisalgunawardhana/Github-Models-Demo.git
+    cd Github-Models-Demo
     ```
 
 3. **Install Dependencies**:
@@ -78,38 +78,42 @@ Follow these steps to set up the environment:
 
 ## Customizing Messages
 
-    You can customize the interaction by editing the messages in the following format:
+You can customize the interaction by editing the messages in the following format:
 
-    1. Open the `src/sample.js` file in the repository.
-    2. Modify the `messages` array to include your own context and questions. For example:
-        ```javascript
-        const messages = [
-            { role: "developer", content: "You are a helpful assistant" },
-            { role: "user", content: "<< - Your questions ->> "}
-        ];
-        ```
-    3. Save the file and restart the application:
-        ```bash
-        npm start
-        ```
+```bash
+# Open the `src/sample.js` file in the repository
+nano src/sample.js
 
-    This allows you to tailor the interaction to your specific needs.
+# Modify the `messages` array to include your own context and questions
+# Example:
+# const messages = [
+#     { role: "developer", content: "You are a helpful assistant" },
+#     { role: "user", content: "<< - Your questions ->> "}
+# ];
 
-    ## Trying the Chatbot Experience
+# Save the file and restart the application
+npm start
+```
 
-    If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows:
+This allows you to tailor the interaction to your specific needs.
 
-    1. Open the `package.json` file in the root directory.
-    2. Locate the `scripts` section and update the `start` command:
-        ```json
-        "start": "node ./src/chatbot.js"
-        ```
-    3. Save the file and start the application:
-        ```bash
-        npm start
-        ```
+## Trying the Chatbot Experience
 
-    This will run the chatbot experience instead of the default sample application.
+If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows:
+
+```bash
+# Open the `package.json` file in the root directory
+nano package.json
+
+# Locate the `scripts` section and update the `start` command
+# Example:
+# "start": "node ./src/chatbot.js"
+
+# Save the file and start the application
+npm start
+```
+
+This will run the chatbot experience instead of the default sample application.
 
 
 ## Closing Notes
