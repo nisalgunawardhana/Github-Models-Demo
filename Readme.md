@@ -86,7 +86,7 @@ nano src/sample.js
 
 # Modify the `messages` array to include your own context and questions
 # Example:
-# const messages = [
+# messages = [
 #     { role: "developer", content: "You are a helpful assistant" },
 #     { role: "user", content: "<< - Your questions ->> "}
 # ];
