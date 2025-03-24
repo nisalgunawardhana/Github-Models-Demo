@@ -136,3 +136,39 @@ Once you have completed the demo:
 
 Enjoy exploring GitHub Models! 🚀
 
+## Resources
+
+### Course: Introduction to Large Language Models
+📌 **Duration**: 25 minutes  
+📌 **Units**: 7  
+📌 **Link**: [Learn More](https://shorturl.at/sTz0y)  
+
+Learn the fundamentals of LLMs, their applications, and how they power AI-driven solutions. Perfect for beginners! 🚀
+
+---
+
+### Small & Large Language Models
+📌 **Overview**: Learn the differences between small and large language models, their advantages, and when to use them in AI and machine learning workflows.  
+
+📌 **Key Points**:  
+✅ **Small LMs** – Faster, cost-effective, and ideal for precise, well-defined tasks.  
+✅ **Large LMs** – Powerful, adaptable, and suited for complex, high-volume tasks.  
+✅ Experiment with models on Azure Kubernetes Service (AKS) using KAITO for deployment automation.  
+
+📌 **Read more**: [Small & Large Language Models](https://shorturl.at/FekqA)
+
+
+## About the Author
+
+This repository is maintained by **Nisal Gunawardhana**. Feel free to reach out for any questions or feedback regarding this demo.
+## Connect with Me
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nisalgunawardhana/) for more updates and professional networking opportunities.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this repository for educational and study purposes. See the `LICENSE` file for more details.
+
+
