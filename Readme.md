@@ -95,21 +95,21 @@ Follow these steps to set up the environment:
 
 **This allows you to tailor the interaction to your specific needs**.
 
-    ## Trying the Chatbot Experience
+## Trying the Chatbot Experience
 
-    If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows:
+**If you want to try the chatbot experience, you can modify the `start` command in the `package.json` file as follows**:
 
-    1. Open the `package.json` file in the root directory.
-    2. Locate the `scripts` section and update the `start` command:
+1. Open the `package.json` file in the root directory.
+2. Locate the `scripts` section and update the `start` command:
         ```json
         "start": "node ./src/chatbot.js"
         ```
-    3. Save the file and start the application:
+3. Save the file and start the application:
         ```bash
         npm start
         ```
 
-    This will run the chatbot experience instead of the default sample application.
+**This will run the chatbot experience instead of the default sample application**.
 
 
 ## Closing Notes
