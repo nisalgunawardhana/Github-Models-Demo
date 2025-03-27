@@ -6,6 +6,14 @@ Welcome to the **Demo Repository for Azure OpenAI Services in GitHub Models**! T
 
 ---
 
+## Instruction Video
+
+[![Instruction Video](Demo/video.png)](https://youtu.be/2amZZv0-31Q)
+
+---
+
+Click the image above to watch the instruction video.
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
@@ -45,7 +53,7 @@ Follow these steps to set up the environment:
 
 2. **Clone the Forked Repository**:
     ```bash
-    git clone https://github.com/nisalgunawardhana/Github-Models-Demo.git
+    git clone https://github.com/Your_Username/Github-Models-Demo.git
     cd Github-Models-Demo
     ```
 
