@@ -1,4 +1,6 @@
 # Demo Repository for Azure OpenAI Services in GitHub Models
+**by Nisal Gunawardhana**  
+[![Follow me on GitHub](https://img.shields.io/github/followers/nisalgunawardhana?label=Follow%20me%20on%20GitHub&style=social)](https://github.com/nisalgunawardhana)
 
 ![Session Banner](Demo/banner.png)
 
@@ -11,6 +13,16 @@ Welcome to the **Demo Repository for Azure OpenAI Services in GitHub Models**! T
 [![Instruction Video](Demo/video.png)](https://youtu.be/2amZZv0-31Q)
 
 ---
+
+---
+
+## Related Repository
+
+Looking for a deeper dive? Check out the [**Introduction to GitHub Models**](https://github.com/nisalgunawardhana/Introduction-to-Github-models) repository for more comprehensive resources and examples.
+
+[![Get Free Premium Course](https://img.shields.io/badge/Get%20Free%20Premium%20Course-blue?style=for-the-badge&logo=github)](https://github.com/nisalgunawardhana/Introduction-to-Github-models)
+
+--- 
 
 Click the image above to watch the instruction video.
 
